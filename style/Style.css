@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aliceblue;
+    position: sticky;
+
+}
+
+.logo_container
+{
+	height: 80px;
+}
+.logo
+{
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.logo a
+{
+	font-size: 36px;
+	font-weight: 500;
+	color: #0e8ce4;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+a:link {
+    outline: none;
+    text-decoration: none;
+  }
+  
+/*a:visited {
+  
+}*/
+  a.addPanier {
+    font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+
+}
+/*a:hover{
+    opacity: 50%;
+    text-decoration-color: black;
+}
+
+
+/*nav h1{
+    font-size: 20px;
+    
+
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+nav  input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+   
+}
+nav .search{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #04AA6D;
+    border-radius: 50px;
+   
+    
+}
+nav .onglets .bloc1{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-right: 100px;
+
+   
+}
+nav .onglets .bloc2{
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+ }*/
+
+
+
+
+
+
+
+
+
+/*Section Principal*/
+
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+   
+   
+    
+    
+}
+
+.cart_text{
+    content: attr(count);
+}
+
+.cards .card{
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: 150px;
+    transition: transform 0.3s ease;
+    background-color: #D9DDDC;
+   
+}
+
+
+.cards .card:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card .image-card{
+    height: 350px;
+}
+.cards .card .card-body{
+    width: 350px;
+    position: relative;
+
+}
+
+
+
+/*Fin Section Principal*/
+
+
+footer{
+    margin-top: 100px;
+    background-color: rgb(21, 22, 22);
+
+    
+    
+    color: #fff;
+    height: 100px;
+    
+}
+
+footer p{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+
+
+
+.btnpanier{
+   
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 47%;
+    height: 100px;
+  }
+  .btndetail{
+    background-color: #77B5FE;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 47%;
+  }
+
+  .button-fiche{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: black 5px;
+  }
+
+
+  /*.btnnav{
+    
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  .btnnavred{
+    
+    background-color: darkred;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border: solid 1px black;
+  }*/
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.9;
+  }
+
+  
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+
+
+  .lien{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+  }
+
+.btnconnexion{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+.btninscription{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+/*.container{
+    display: flex;
+    justify-content: center;
+}
+
+i{
+    margin-top: 10px;
+    margin-left: 10px;
+}*/
+  
+
+
+/* panier */
+
+@media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+    
+    .bg-grey {
+    background-color: #eae8e8;
+    }
+    
+    @media (min-width: 992px) {
+    .card-registration-2 .bg-grey {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
+    
+    @media (max-width: 991px) {
+    .card-registration-2 .bg-grey {
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    }
+    }
